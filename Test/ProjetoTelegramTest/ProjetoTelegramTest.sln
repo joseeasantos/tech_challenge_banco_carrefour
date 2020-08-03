@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoTelegramTest", "ProjetoTelegramTest\ProjetoTelegramTest.csproj", "{E5B1E69E-7439-475F-B616-5313BEB36403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoTelegram", "..\..\Projeto\ProjetoTelegram\ProjetoTelegram.csproj", "{12590254-B5AE-4FBA-9210-0B64EBEE03A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B} = {68DB1187-5B97-4BBB-9941-641EF0DEFF8B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDialogflow", "..\..\Projeto\ProjetoDialogflow\ProjetoDialogflow.csproj", "{68DB1187-5B97-4BBB-9941-641EF0DEFF8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoDialogflowTest", "ProjetoDialogflowTest\ProjetoDialogflowTest.csproj", "{48E8C2B7-BA9F-410D-979F-45333F21B79B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B} = {68DB1187-5B97-4BBB-9941-641EF0DEFF8B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModulosDoProjeto", "ModulosDoProjeto", "{E1BA962C-28F9-457F-B20A-F47D5A95F759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste", "Teste", "{FECC05EA-BDD8-4290-A15E-4727340EB567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5B1E69E-7439-475F-B616-5313BEB36403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B1E69E-7439-475F-B616-5313BEB36403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B1E69E-7439-475F-B616-5313BEB36403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B1E69E-7439-475F-B616-5313BEB36403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12590254-B5AE-4FBA-9210-0B64EBEE03A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12590254-B5AE-4FBA-9210-0B64EBEE03A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12590254-B5AE-4FBA-9210-0B64EBEE03A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12590254-B5AE-4FBA-9210-0B64EBEE03A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E8C2B7-BA9F-410D-979F-45333F21B79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E8C2B7-BA9F-410D-979F-45333F21B79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E8C2B7-BA9F-410D-979F-45333F21B79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E8C2B7-BA9F-410D-979F-45333F21B79B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5B1E69E-7439-475F-B616-5313BEB36403} = {FECC05EA-BDD8-4290-A15E-4727340EB567}
+		{12590254-B5AE-4FBA-9210-0B64EBEE03A5} = {E1BA962C-28F9-457F-B20A-F47D5A95F759}
+		{68DB1187-5B97-4BBB-9941-641EF0DEFF8B} = {E1BA962C-28F9-457F-B20A-F47D5A95F759}
+		{48E8C2B7-BA9F-410D-979F-45333F21B79B} = {FECC05EA-BDD8-4290-A15E-4727340EB567}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DE6667-551B-4464-A415-D06DA2B4ED00}
+	EndGlobalSection
+EndGlobal
